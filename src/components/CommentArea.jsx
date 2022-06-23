@@ -45,7 +45,7 @@ class CommentArea extends Component {
             <>
                 <h4>Comments</h4>
                 <ListGroup>
-                    {this.state.comments && this.state.comments.length > 0 && <CommentList commentsArray={this.state.comments} />}
+                    {this.state.comments && <CommentList commentsArray={this.state.comments} />}
                 </ListGroup>
             </>
 

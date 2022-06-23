@@ -5,7 +5,7 @@ class CommentList extends Component {
     render() {
         return <li>
         
-    {this.props.commentsArray && this.props.commentsArray.length > 0 &&this.props.commentsArray.map(comment => <SingleComment bookComment={comment}/>)}
+    {this.props.commentsArray && this.props.commentsArray.map(comment => <SingleComment bookComment={comment}/>)}
         
         </li>;
     }

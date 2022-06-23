@@ -19,7 +19,6 @@ import CommentArea from "./CommentArea";
                     </Card.Body>
                 </Card>
             </Col>
-
         </Row>
     </Container >
 ) */
