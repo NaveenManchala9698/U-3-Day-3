@@ -10,6 +10,7 @@ import FantasyBooks from "./data/fantasy.json"
 import RomanceBooks from "./data/romance.json"
 import HistoryBooks from "./data/history.json"
 import BookList from './components/BookList';
+import CommentArea from './components/CommentArea';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <SingleBook book={RomanceBooks[0]} category="Romance" /> */}
       <SingleBook book={HistoryBooks[0]} category="History" />
       <BookList books={RomanceBooks} />
+      <CommentArea />
     </div>
   );
 }
